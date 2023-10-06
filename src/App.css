@@ -22,7 +22,7 @@
 }
 
 body {
-  height: 100vh;
+  /* height: 100vh; */
   display: grid;
   grid-template-rows: auto 0px;
   background-color: rgba(13, 12, 14, 0.95);
@@ -39,8 +39,9 @@ main{
     max-width: 550px;
     width: auto;
     height: auto;
-    margin-top: 10rem !important;
+    margin-top: auto !important;
     margin: auto 20px;
+    margin-bottom: auto;
 }
 
 
@@ -89,7 +90,7 @@ main{
     color: var(--Light-Cyan);
 } 
 .attribution a { 
-    color: var(--Neon-Green); 
+    color: var(--Neon-Green);
 }
 
 /* Media Query */
@@ -110,10 +111,12 @@ main{
       letter-spacing: 0.5px;
       word-spacing: normal;
       margin-left: 20.5rem;
+      /* background-color: rgba(13, 12, 14, 0.95); */
     }
     .attribution a{
       color: var(--Neon-Green);
       margin-left: 5px;
       text-decoration: none;
+      /* background-color: rgba(13, 12, 14, 0.95); */
     }
 }

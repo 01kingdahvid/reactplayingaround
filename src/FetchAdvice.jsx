@@ -35,6 +35,7 @@ const FetchAdvice = () => {
   }, []); // Empty dependency array means this effect runs once after mounting
 
   return (
+    <>
     <main>
       <div className="advice-container">
         <p className="advice-id">Advice #{adviceNumber}</p>
@@ -45,6 +46,11 @@ const FetchAdvice = () => {
         <img src={img3} alt="Dice to generate new advice" />
       </button>
     </main>
+    <div className="attribution" >
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"> Frontend Mentor</a>. 
+      Coded by  <a href="https://github.com/01kingdahvid/"> King Dahvid</a>
+      </div>
+    </>
     
   );
 };
