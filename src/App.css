@@ -112,5 +112,7 @@ main{
     }
     .attribution a{
       color: var(--Neon-Green);
+      margin-left: 5px;
+      text-decoration: none;
     }
 }
