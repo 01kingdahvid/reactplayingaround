@@ -95,7 +95,7 @@ main{
 @media (min-width: 530px) {
     main{
         margin: auto;
-        margin-left: 375px;
+        margin-left: 335px;
     }
     .attribution{
       font-size: 0.8rem; 
